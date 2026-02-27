@@ -1,0 +1,13 @@
+<svg width="120" height="180" viewBox="0 0 120 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ghostface mask - simplified geometric -->
+  <!-- Outer hood shape -->
+  <path d="M60 5 C25 5 10 40 10 70 C10 100 20 130 35 155 C42 165 50 172 60 175 C70 172 78 165 85 155 C100 130 110 100 110 70 C110 40 95 5 60 5Z" fill="#1A1A1A" stroke="#333" stroke-width="1"/>
+  <!-- White face -->
+  <path d="M60 20 C35 20 22 45 22 70 C22 95 30 120 42 140 C48 148 54 153 60 155 C66 153 72 148 78 140 C90 120 98 95 98 70 C98 45 85 20 60 20Z" fill="#F0F0F0"/>
+  <!-- Left eye -->
+  <path d="M40 55 C40 48 43 42 48 40 C53 38 58 40 60 45 C58 50 53 58 48 60 C43 62 40 60 40 55Z" fill="#0A0A0A"/>
+  <!-- Right eye -->
+  <path d="M80 55 C80 48 77 42 72 40 C67 38 62 40 60 45 C62 50 67 58 72 60 C77 62 80 60 80 55Z" fill="#0A0A0A"/>
+  <!-- Mouth - elongated scream -->
+  <ellipse cx="60" cy="110" rx="18" ry="28" fill="#0A0A0A"/>
+</svg>

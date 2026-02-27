@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: var(--font-stack-sans-text), ui-sans-serif, system-ui, sans-serif;
+  --font-headline: var(--font-stack-sans-headline), ui-sans-serif, system-ui, sans-serif;
+  --font-notch: var(--font-stack-sans-notch), ui-sans-serif, system-ui, sans-serif;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2rem;
+  --text-3xl: 2.5rem;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+
+  --duration-instant: 80ms;
+  --duration-fast: 150ms;
+  --duration-normal: 300ms;
+  --duration-slow: 500ms;
+  --duration-dramatic: 800ms;
+
+  --color-spoiler-gate: #FFD700;
+  --color-franchise-badge: #4A90D9;
+  --color-ghostface-tag: #C41E1E;
+  --color-safe-badge: #2D8F47;
+}
+
+:root {
+  --bg-primary: #FAFAF8;
+  --bg-secondary: #F0EEEA;
+  --bg-tertiary: #E5E2DC;
+  --text-primary: #1A1A1A;
+  --text-secondary: #5C5C5C;
+  --accent: #C41E1E;
+  --accent-hover: #A01818;
+  --accent-subtle: #FDE8E8;
+  --border: #D4D0CA;
+  --shadow: rgba(0, 0, 0, 0.08);
+}
+
+.dark {
+  --bg-primary: #0A0A0A;
+  --bg-secondary: #161616;
+  --bg-tertiary: #222222;
+  --text-primary: #EDEDEB;
+  --text-secondary: #9A9A9A;
+  --accent: #E63636;
+  --accent-hover: #FF4D4D;
+  --accent-subtle: #2A1010;
+  --border: #2A2A2A;
+  --shadow: rgba(0, 0, 0, 0.4);
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100dvh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+@keyframes shimmer-slide {
+  to {
+    transform: translateX(200%);
+  }
+}
+
+@keyframes ripple-expand {
+  to {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
+
+@keyframes glow-pulse {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(230, 54, 54, 0.45);
+  }
+  50% {
+    box-shadow: 0 0 35px rgba(230, 54, 54, 0.8);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
