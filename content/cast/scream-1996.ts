@@ -30,7 +30,7 @@ export const cast: CastMember[] = [
     characterName: 'Billy Loomis',
     role: 'supporting',
     isGhostface: true,
-    isFranchiseRegular: true,
+    isFranchiseRegular: false,
     headshot: '/images/cast/skeet-ulrich.jpg',
   },
   {
@@ -102,7 +102,7 @@ export const cast: CastMember[] = [
     characterName: 'Neil Prescott',
     role: 'supporting',
     isGhostface: false,
-    isFranchiseRegular: false,
+    isFranchiseRegular: true,
     headshot: '/images/cast/placeholder.svg',
   },
   {

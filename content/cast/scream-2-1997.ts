@@ -43,7 +43,7 @@ export const cast: CastMember[] = [
   },
   {
     actorName: 'Laurie Metcalf',
-    characterName: 'Debbie Salt / Nancy Loomis',
+    characterName: 'Debbie Salt',
     role: 'supporting',
     isGhostface: true,
     isFranchiseRegular: false,
