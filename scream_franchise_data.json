@@ -1,0 +1,319 @@
+{
+  "franchise": "Scream",
+  "total_films": 6,
+  "created_by": "Kevin Williamson",
+  "original_director": "Wes Craven",
+  "movies": [
+    {
+      "title": "Scream",
+      "year": 1996,
+      "director": "Wes Craven",
+      "writer": "Kevin Williamson",
+      "runtime_minutes": 111,
+      "rating_mpaa": "R",
+      "imdb_id": "tt0117571",
+      "tmdb_id": 4232,
+      "imdb_rating": 7.4,
+      "distributor": "Dimension Films",
+      "box_office_worldwide": "$173 million",
+      "budget": "$15 million",
+      "ghostface_killers": [
+        {
+          "character": "Billy Loomis",
+          "actor": "Skeet Ulrich",
+          "motive": "Revenge against Maureen Prescott, whose affair with his father caused his mother to abandon the family. He murdered Maureen and framed Cotton Weary, then one year later orchestrated a new killing spree to torment Sidney and frame her father Neil."
+        },
+        {
+          "character": "Stu Macher",
+          "actor": "Matthew Lillard",
+          "motive": "Initially claims he joined for fun, but ultimately cites 'peer pressure' from Billy as his reason."
+        }
+      ],
+      "cast": [
+        { "actor": "Neve Campbell", "character": "Sidney Prescott", "role_type": "lead" },
+        { "actor": "Courteney Cox", "character": "Gale Weathers", "role_type": "main" },
+        { "actor": "David Arquette", "character": "Deputy Dwight 'Dewey' Riley", "role_type": "main" },
+        { "actor": "Skeet Ulrich", "character": "Billy Loomis", "role_type": "main" },
+        { "actor": "Matthew Lillard", "character": "Stu Macher", "role_type": "main" },
+        { "actor": "Rose McGowan", "character": "Tatum Riley", "role_type": "main" },
+        { "actor": "Drew Barrymore", "character": "Casey Becker", "role_type": "supporting" },
+        { "actor": "Jamie Kennedy", "character": "Randy Meeks", "role_type": "main" },
+        { "actor": "W. Earl Brown", "character": "Kenny Jones", "role_type": "supporting" },
+        { "actor": "Roger L. Jackson", "character": "Voice of Ghostface", "role_type": "supporting" },
+        { "actor": "Liev Schreiber", "character": "Cotton Weary", "role_type": "supporting" },
+        { "actor": "Henry Winkler", "character": "Principal Arthur Himbry", "role_type": "supporting" },
+        { "actor": "Lawrence Hecht", "character": "Neil Prescott", "role_type": "supporting" },
+        { "actor": "Kevin Patrick Walls", "character": "Steve Orth", "role_type": "supporting" },
+        { "actor": "Joseph Whipp", "character": "Sheriff Burke", "role_type": "supporting" },
+        { "actor": "Frances Lee McCain", "character": "Mrs. Riley", "role_type": "supporting" },
+        { "actor": "C.W. Morgan", "character": "Hank Loomis", "role_type": "supporting" }
+      ],
+      "summary_short": "A masked killer known as Ghostface begins targeting teenagers in the small town of Woodsboro, and high school student Sidney Prescott finds herself at the center of the terror as she copes with the anniversary of her mother's murder.",
+      "summary_medium": "In the quiet town of Woodsboro, California, a mysterious killer in a Ghostface mask begins a brutal murder spree, starting with the shocking death of teenager Casey Becker. High school student Sidney Prescott, still reeling from the rape and murder of her mother Maureen one year earlier, quickly becomes the primary target.\n\nAs the body count rises, tabloid reporter Gale Weathers descends on the town for the story, while the well-meaning but inexperienced Deputy Dewey Riley tries to keep everyone safe. Sidney's boyfriend Billy Loomis becomes a suspect when he appears at her window moments after a Ghostface attack, but is released from custody.\n\nThe surviving teens gather at a house party hosted by the eccentric Stu Macher, where horror movie fanatic Randy Meeks lays out the 'rules' for surviving a horror film. But as the night progresses, the killer strikes again and again, and Sidney must summon all her courage to survive.\n\nThe film reinvented the slasher genre by combining genuine scares with self-aware humor and meta-commentary about horror film conventions, launching one of the most successful horror franchises in cinema history.",
+      "summary_long_spoilers": "The film opens in Woodsboro, California, where teenager Casey Becker receives a phone call from a stranger who engages her in horror movie trivia. When the caller turns threatening, he reveals her boyfriend Steve Orth is tied up outside. Casey answers a trivia question incorrectly, leading to Steve's death. She is then chased and stabbed to death by someone in a Ghostface costume; her parents discover her disemboweled body hanging from a tree.\n\nThe next day, Sidney Prescott struggles with the approaching anniversary of her mother Maureen's murder, for which Cotton Weary was convicted based on Sidney's testimony. That evening, Sidney is attacked by Ghostface. Her boyfriend Billy Loomis appears at her window moments later and drops a cell phone, making Sidney suspect him. Billy is arrested but released when Sidney receives another threatening call while he's in custody.\n\nAt school, the students are placed under curfew. Principal Himbry is killed in his office. That night, Stu Macher throws a party at his house. Tatum Riley goes to the garage alone and is killed by Ghostface, who crushes her through the garage pet door. Billy arrives to reconcile with Sidney, and they have sex for the first time. Afterward, Ghostface attacks and apparently stabs Billy.\n\nSidney flees through the house. Gale's cameraman Kenny has his throat slashed. Dewey is stabbed in the back. Gale crashes her van trying to escape. Sidney locks herself inside with Randy and Stu each accusing the other of being the killer.\n\nBilly appears at a window, seemingly wounded, and lets Randy inside -- then shoots Randy in the shoulder. Billy reveals himself as Ghostface, with Stu as his accomplice. The blood on Billy was fake (corn syrup). They reveal their plan: they killed Maureen Prescott because Billy's father had an affair with her, causing Billy's mother to leave the family. They framed Cotton Weary for Maureen's murder. Now they plan to kill Sidney and frame her father Neil (whom they've been holding hostage) for the entire new killing spree, using the anniversary of Maureen's death as motive.\n\nBilly and Stu begin stabbing each other to appear as victims, but Gale returns and distracts them. Sidney escapes, puts on the Ghostface costume herself, and fights back. She drops a television on Stu's head, killing him. Gale shoots Billy. Randy warns that the killer always comes back for 'one last scare,' and indeed Billy lunges up -- but Sidney calmly shoots him in the forehead, killing him for good. Sidney, Gale, Dewey, Randy, and Neil Prescott all survive."
+    },
+    {
+      "title": "Scream 2",
+      "year": 1997,
+      "director": "Wes Craven",
+      "writer": "Kevin Williamson",
+      "runtime_minutes": 120,
+      "rating_mpaa": "R",
+      "imdb_id": "tt0120082",
+      "tmdb_id": 4233,
+      "imdb_rating": 6.3,
+      "distributor": "Dimension Films",
+      "box_office_worldwide": "$172.4 million",
+      "budget": "$24 million",
+      "ghostface_killers": [
+        {
+          "character": "Mickey Altieri",
+          "actor": "Timothy Olyphant",
+          "motive": "A psychotic film student who wanted to be caught and become infamous, blaming cinema violence for his actions in a highly publicized trial."
+        },
+        {
+          "character": "Nancy Loomis (a.k.a. Debbie Salt)",
+          "actor": "Laurie Metcalf",
+          "motive": "Billy Loomis's mother, seeking revenge against Sidney for killing her son, and anger at Maureen Prescott for breaking up her marriage. She funded and recruited Mickey."
+        }
+      ],
+      "cast": [
+        { "actor": "Neve Campbell", "character": "Sidney Prescott", "role_type": "lead" },
+        { "actor": "Courteney Cox", "character": "Gale Weathers", "role_type": "main" },
+        { "actor": "David Arquette", "character": "Dewey Riley", "role_type": "main" },
+        { "actor": "Jamie Kennedy", "character": "Randy Meeks", "role_type": "main" },
+        { "actor": "Timothy Olyphant", "character": "Mickey Altieri", "role_type": "main" },
+        { "actor": "Laurie Metcalf", "character": "Debbie Salt / Nancy Loomis", "role_type": "main" },
+        { "actor": "Jerry O'Connell", "character": "Derek Feldman", "role_type": "main" },
+        { "actor": "Jada Pinkett Smith", "character": "Maureen Evans", "role_type": "supporting" },
+        { "actor": "Omar Epps", "character": "Phil Stevens", "role_type": "supporting" },
+        { "actor": "Sarah Michelle Gellar", "character": "Cici Cooper", "role_type": "supporting" },
+        { "actor": "Liev Schreiber", "character": "Cotton Weary", "role_type": "supporting" },
+        { "actor": "Elise Neal", "character": "Hallie McDaniel", "role_type": "supporting" },
+        { "actor": "Duane Martin", "character": "Joel Jones", "role_type": "supporting" },
+        { "actor": "Rebecca Gayheart", "character": "Lois Murphy", "role_type": "supporting" },
+        { "actor": "Portia de Rossi", "character": "Murphy Stevens", "role_type": "supporting" },
+        { "actor": "Roger L. Jackson", "character": "Voice of Ghostface", "role_type": "supporting" }
+      ],
+      "summary_short": "Two years after the Woodsboro murders, Sidney Prescott and the other survivors are targeted by a copycat Ghostface killer at Windsor College, just as a movie based on the original events is released.",
+      "summary_medium": "Two years after the horrific events in Woodsboro, Sidney Prescott is trying to put her life back together as a drama student at Windsor College in Ohio. But the release of 'Stab,' a movie based on Gale Weathers' book about the murders, attracts unwanted attention -- and a new Ghostface killer.\n\nThe terror begins when two students, Maureen Evans and Phil Stevens, are murdered at a sneak preview of 'Stab.' As the campus goes on high alert, familiar faces converge: Dewey Riley arrives to protect Sidney, Gale Weathers covers the story, and fellow survivor Randy Meeks finds himself once again in danger.\n\nThe new Ghostface seems to be following the rules of horror sequels -- bigger body count, more elaborate kills, and more suspects than ever. Sidney must navigate her trauma, her relationships, and a web of deception as the killer picks off those around her one by one.\n\nThe film explores themes of media exploitation, the copycat phenomenon, and the way horror sequels reflect and amplify the fears of the original, all while delivering genuine suspense and the franchise's trademark self-aware humor.",
+      "summary_long_spoilers": "Two years after the Woodsboro murders, Sidney Prescott is attending Windsor College under a new identity. A film called 'Stab,' based on Gale Weathers' book about the killings, is about to premiere. At the screening, Phil Stevens is murdered in a bathroom stall by Ghostface, who then sits beside Phil's girlfriend Maureen Evans and stabs her repeatedly. Maureen staggers to the front of the theater and collapses dead onstage, while the audience initially mistakes it for a publicity stunt.\n\nThe murders draw media frenzy to campus. Reporter Debbie Salt arrives alongside Gale Weathers. Sidney's friend group includes her roommate Hallie McDaniel, boyfriend Derek Feldman, horror buff Mickey Altieri, and fellow Woodsboro survivor Randy Meeks. Dewey arrives to protect Sidney. Sorority sister Cici Cooper is murdered during a party.\n\nRandy receives a phone call from the killer while on the campus lawn with Gale, Dewey, and cameraman Joel. As Gale and Dewey search for the caller, Randy is pulled into Joel's news van and stabbed to death. That evening, Dewey and Gale discover footage but are attacked by Ghostface, who stabs Dewey multiple times.\n\nSidney and Hallie are being driven to a safe house when Ghostface kills their police escorts and causes a crash. They escape past the unconscious killer in the car, but Sidney goes back to unmask them, and the killer vanishes. Ghostface then kills Hallie.\n\nSidney flees to the college theater, where she finds Derek tied to a cross in what appears to be a fraternity prank. Mickey enters with a gun and reveals himself as one of the killers. He shoots Derek dead. Mickey explains his plan to be caught and blame movie violence in a sensational trial.\n\nDebbie Salt then appears holding Gale at gunpoint and removes her disguise -- she is Nancy Loomis, Billy's mother. She financed Mickey's killing spree as revenge against Sidney for killing Billy and against Maureen Prescott for having an affair with her husband. She personally killed Randy for badmouthing Billy. Nancy double-crosses Mickey and shoots him.\n\nCotton Weary arrives and is briefly manipulated by Nancy, who offers him fame if he kills Sidney. Instead, Cotton shoots Nancy. Mickey suddenly revives but is shot to death by both Sidney and Gale. Sidney shoots Nancy once more in the head to ensure she's dead. In the aftermath, Dewey is revealed to have survived his injuries. Sidney, Gale, Dewey, and Cotton all survive."
+    },
+    {
+      "title": "Scream 3",
+      "year": 2000,
+      "director": "Wes Craven",
+      "writer": "Ehren Kruger",
+      "runtime_minutes": 116,
+      "rating_mpaa": "R",
+      "imdb_id": "tt0134084",
+      "tmdb_id": 4234,
+      "imdb_rating": 5.7,
+      "distributor": "Dimension Films",
+      "box_office_worldwide": "$161.8 million",
+      "budget": "$40 million",
+      "ghostface_killers": [
+        {
+          "character": "Roman Bridger",
+          "actor": "Scott Foley",
+          "motive": "Sidney's secret half-brother, born from Maureen Prescott's rape during her brief time as an actress in Hollywood. Rejected by Maureen when he tried to find her, Roman was consumed by jealousy of Sidney. He is revealed as the mastermind behind the entire franchise -- he showed Billy Loomis evidence of his father's affair with Maureen and encouraged Billy to murder her, setting the entire series of events into motion."
+        }
+      ],
+      "cast": [
+        { "actor": "Neve Campbell", "character": "Sidney Prescott", "role_type": "lead" },
+        { "actor": "Courteney Cox Arquette", "character": "Gale Weathers", "role_type": "main" },
+        { "actor": "David Arquette", "character": "Dewey Riley", "role_type": "main" },
+        { "actor": "Scott Foley", "character": "Roman Bridger", "role_type": "main" },
+        { "actor": "Patrick Dempsey", "character": "Detective Mark Kincaid", "role_type": "main" },
+        { "actor": "Parker Posey", "character": "Jennifer Jolie", "role_type": "main" },
+        { "actor": "Lance Henriksen", "character": "John Milton", "role_type": "supporting" },
+        { "actor": "Jenny McCarthy", "character": "Sarah Darling", "role_type": "supporting" },
+        { "actor": "Emily Mortimer", "character": "Angelina Tyler", "role_type": "supporting" },
+        { "actor": "Matt Keeslar", "character": "Tom Prinze", "role_type": "supporting" },
+        { "actor": "Deon Richmond", "character": "Tyson Fox", "role_type": "supporting" },
+        { "actor": "Patrick Warburton", "character": "Steven Stone", "role_type": "supporting" },
+        { "actor": "Liev Schreiber", "character": "Cotton Weary", "role_type": "supporting" },
+        { "actor": "Kelly Rutherford", "character": "Christine Hamilton", "role_type": "supporting" },
+        { "actor": "Jamie Kennedy", "character": "Randy Meeks (video cameo)", "role_type": "cameo" },
+        { "actor": "Roger L. Jackson", "character": "Voice of Ghostface", "role_type": "supporting" }
+      ],
+      "summary_short": "A new Ghostface targets the cast of 'Stab 3,' the latest sequel in the movie-within-a-movie franchise, drawing Sidney Prescott out of seclusion and to Hollywood where dark secrets about her mother's past are revealed.",
+      "summary_medium": "Years after the Windsor College murders, Sidney Prescott has retreated into isolated anonymity, working as a crisis counselor from a remote California home. Meanwhile, in Hollywood, production is underway on 'Stab 3: Return to Woodsboro,' the latest film based on the Ghostface killings.\n\nWhen Cotton Weary, now a successful talk show host, is murdered along with his girlfriend, a new Ghostface emerges -- this time targeting the actors of Stab 3. Detective Mark Kincaid brings Gale Weathers into the investigation, and she reconnects with Dewey Riley, who has been working as an adviser on the film set.\n\nAs the cast members are killed one by one, clues emerge pointing to dark secrets from Maureen Prescott's past -- her brief career as an actress in Hollywood under the name 'Rina Reynolds' and a traumatic event at a party hosted by producer John Milton. Sidney is drawn out of hiding when the killer begins using a voice changer to impersonate her dead mother.\n\nThe film explores the conclusion of a trilogy, both literally and meta-textually, as it satirizes Hollywood culture, the horror sequel machine, and the idea that in the final chapter, all rules are thrown out and the past comes back to haunt the present.",
+      "summary_long_spoilers": "Cotton Weary, now a successful Los Angeles talk show host, is contacted by Ghostface, who demands Sidney Prescott's location. When Cotton refuses, the killer murders both Cotton and his girlfriend Christine in their home.\n\nDetective Mark Kincaid contacts Gale Weathers about the murder. In Hollywood, production on 'Stab 3: Return to Woodsboro' is underway, with Dewey Riley working as a technical adviser. Gale arrives and clashes with Jennifer Jolie, the actress portraying her in the Stab films. Parker Posey's Jennifer Jolie becomes an unlikely ally to Gale as they investigate together.\n\nGhostface begins killing Stab 3 cast members in the order they die in the script: Sarah Darling is murdered, then bodyguard Steven Stone is stabbed and Tom Prinze is killed in a gas explosion at Jennifer's house. The killer leaves photos of a young Maureen Prescott at each crime scene.\n\nSidney has been living in seclusion under an alias, working as a crisis counselor for an abused women's hotline. When the killer begins taunting her using a voice changer that mimics her dead mother, Sidney travels to Hollywood. Gale and Jennifer discover that Maureen once worked as an actress under the name 'Rina Reynolds' and was raped at a party held by producer John Milton.\n\nJamie Kennedy appears in a posthumous video cameo as Randy Meeks, who recorded a tape before his death explaining the rules of surviving the final film in a trilogy: the killer is superhuman, anyone can die including the main character, and the past will come back.\n\nAt Roman Bridger's birthday party, Ghostface strikes again. Gale finds Roman's body with a knife in his back in a coffin on a movie set in the basement. Tyson Fox, Jennifer Jolie, and Angelina Tyler are all killed. Ghostface captures Gale and Dewey, then summons Sidney to the Milton estate.\n\nSidney arrives and confronts the killer, who reveals himself as Roman Bridger -- alive, having faked his death. Roman is Maureen Prescott's son, born after she was raped during her time as a young actress. When he sought out his birth mother, Maureen rejected him. Consumed by jealousy and rage, Roman tracked down Billy Loomis, showed him evidence of his father's affair with Maureen, and convinced Billy to murder her -- making Roman the hidden mastermind behind the original Scream murders.\n\nRoman kills producer John Milton by slashing his throat as retribution for the rape of his mother. In the climactic fight, Sidney stabs Roman, and Dewey shoots him multiple times. Roman appears to die but gets back up (wearing a bulletproof vest), only for Dewey to shoot him in the head, killing him for good.\n\nSidney, Gale, Dewey, and Detective Kincaid all survive. The film ends with Sidney leaving her front door open, symbolizing her finally moving past her fear. Scream 3 is notably the only film in the franchise with a single Ghostface killer acting alone."
+    },
+    {
+      "title": "Scream 4",
+      "alternate_title": "SCRE4M",
+      "year": 2011,
+      "director": "Wes Craven",
+      "writer": "Kevin Williamson",
+      "runtime_minutes": 111,
+      "rating_mpaa": "R",
+      "imdb_id": "tt1262416",
+      "tmdb_id": 41446,
+      "imdb_rating": 6.2,
+      "distributor": "Dimension Films",
+      "box_office_worldwide": "$97 million",
+      "budget": "$40 million",
+      "note": "Final film directed by Wes Craven, who passed away on August 30, 2015.",
+      "ghostface_killers": [
+        {
+          "character": "Jill Roberts",
+          "actor": "Emma Roberts",
+          "motive": "Sidney's cousin, jealous of the fame and attention Sidney received as a survivor. Jill wanted to create her own massacre and emerge as the new 'final girl' and media celebrity, exploiting the culture of social media and internet fame."
+        },
+        {
+          "character": "Charlie Walker",
+          "actor": "Rory Culkin",
+          "motive": "A horror film fanatic and Jill's accomplice, motivated by his obsession with horror films and his infatuation with Jill. He believed they would be the new Sidney and Randy. Jill ultimately betrayed and killed him."
+        }
+      ],
+      "cast": [
+        { "actor": "Neve Campbell", "character": "Sidney Prescott", "role_type": "lead" },
+        { "actor": "Courteney Cox", "character": "Gale Weathers-Riley", "role_type": "main" },
+        { "actor": "David Arquette", "character": "Sheriff Dewey Riley", "role_type": "main" },
+        { "actor": "Emma Roberts", "character": "Jill Roberts", "role_type": "main" },
+        { "actor": "Hayden Panettiere", "character": "Kirby Reed", "role_type": "main" },
+        { "actor": "Rory Culkin", "character": "Charlie Walker", "role_type": "main" },
+        { "actor": "Marley Shelton", "character": "Deputy Judy Hicks", "role_type": "main" },
+        { "actor": "Erik Knudsen", "character": "Robbie Mercer", "role_type": "supporting" },
+        { "actor": "Nico Tortorella", "character": "Trevor Sheldon", "role_type": "supporting" },
+        { "actor": "Marielle Jaffe", "character": "Olivia Morris", "role_type": "supporting" },
+        { "actor": "Alison Brie", "character": "Rebecca Walters", "role_type": "supporting" },
+        { "actor": "Anthony Anderson", "character": "Deputy Anthony Perkins", "role_type": "supporting" },
+        { "actor": "Adam Brody", "character": "Deputy Ross Hoss", "role_type": "supporting" },
+        { "actor": "Mary McDonnell", "character": "Kate Roberts", "role_type": "supporting" },
+        { "actor": "Anna Paquin", "character": "Rachel", "role_type": "cameo" },
+        { "actor": "Kristen Bell", "character": "Chloe", "role_type": "cameo" },
+        { "actor": "Lucy Hale", "character": "Sherrie", "role_type": "cameo" },
+        { "actor": "Shenae Grimes-Beech", "character": "Trudie", "role_type": "cameo" },
+        { "actor": "Aimee Teegarden", "character": "Jenny Randall", "role_type": "supporting" },
+        { "actor": "Britt Robertson", "character": "Marnie Cooper", "role_type": "supporting" },
+        { "actor": "Roger L. Jackson", "character": "Voice of Ghostface", "role_type": "supporting" }
+      ],
+      "summary_short": "On the 15th anniversary of the original Woodsboro murders, Sidney Prescott returns to her hometown for a book tour only to find a new Ghostface killer targeting a new generation of teens, including her young cousin Jill.",
+      "summary_medium": "Fifteen years after the original Woodsboro massacre, Sidney Prescott has written a self-help book and returns to her hometown on a book tour. But her arrival coincides with a new wave of Ghostface murders targeting local teenagers, including her cousin Jill Roberts and Jill's circle of friends.\n\nSheriff Dewey Riley leads the investigation while his wife Gale Weathers-Riley, struggling with writer's block, launches her own investigation. The new generation of potential victims includes horror-savvy Kirby Reed, cinema club members Charlie Walker and Robbie Mercer, and Jill's friend Olivia Morris.\n\nThe new Ghostface operates with an awareness of horror remakes and reboots, following what the teens identify as the 'rules of the reboot' -- where the original characters are no longer safe and a new cast must carry the story forward. The kills are being livestreamed and documented, reflecting the social media age.\n\nAs the body count rises and the suspects narrow, Sidney must once again fight to survive while protecting the next generation. The film serves as both a sequel and a meta-commentary on the reboot/remake culture that dominated horror cinema in the 2000s and 2010s, and was the final film directed by Wes Craven before his death in 2015.",
+      "summary_long_spoilers": "On the 15th anniversary of the original Woodsboro murders, high school students Marnie Cooper and Jenny Randall are murdered by Ghostface. Sidney Prescott arrives in Woodsboro on a book tour promoting her self-help memoir, accompanied by her publicist Rebecca Walters. When evidence from the murders is found in Sidney's rental car, she becomes a suspect and is ordered to remain in town.\n\nSidney reconnects with her aunt Kate Roberts and cousin Jill Roberts, a teenager dealing with the infidelity of her ex-boyfriend Trevor Sheldon. Jill, her best friend Kirby Reed, and friend Olivia Morris all receive threatening calls from Ghostface. Cinema club members Charlie Walker and Robbie Mercer theorize the killer is following the rules of horror remakes.\n\nGale Weathers-Riley, experiencing writer's block, begins her own investigation with help from Charlie and Robbie, setting up cameras at a 'Stab-a-thon' screening event. Ghostface attacks Gale at the event, stabbing her. Sidney's publicist Rebecca is murdered in a parking garage. Officers Deputy Hoss and Deputy Perkins, assigned to guard Jill's house, are both killed. Olivia Morris is murdered in her bedroom while Jill and Kirby watch helplessly from next door.\n\nSidney's aunt Kate Roberts is stabbed to death by Ghostface on her own front porch. Sidney rushes to find Jill, who is missing. At Kirby's house, Charlie is found seemingly tied up and tortured. When Kirby frees him, he immediately stabs her, revealing himself as Ghostface.\n\nSidney arrives and is confronted by both Charlie and a second Ghostface, who unmasks as Jill Roberts. Jill reveals her motive: she is consumed with jealousy over the fame Sidney received as a survivor of the original massacre. In the age of social media and internet celebrity, Jill wants to be the new 'final girl,' engineering her own survival story. She plans to frame her ex-boyfriend Trevor as the sole killer.\n\nJill shoots Trevor in the head and the groin, then turns on Charlie and stabs him to death -- she never intended to share the spotlight. She stabs Sidney and then injures herself (throwing herself into furniture, pulling her own hair, stabbing herself) to convincingly appear as a victim.\n\nDewey and the police arrive and both Sidney and Jill are taken to the hospital. When Jill learns Sidney survived surgery, she frantically goes to finish her off. In the hospital room, Jill attacks Sidney, but Sidney fights back. Dewey and Gale realize Jill is the killer when she references details about Gale's stabbing that weren't public knowledge. In the final confrontation, Sidney uses a defibrillator on Jill and then shoots her in the chest, killing her.\n\nSidney, Gale, and Dewey survive. Kirby Reed's fate was left ambiguous (later confirmed as a survivor in Scream 2022/VI). The film had the franchise's highest body count at fourteen victims."
+    },
+    {
+      "title": "Scream",
+      "alternate_title": "Scream 5",
+      "year": 2022,
+      "director": ["Matt Bettinelli-Olpin", "Tyler Gillett"],
+      "writer": ["James Vanderbilt", "Guy Busick"],
+      "runtime_minutes": 114,
+      "rating_mpaa": "R",
+      "imdb_id": "tt11245972",
+      "tmdb_id": 646385,
+      "imdb_rating": 6.3,
+      "distributor": "Paramount Pictures",
+      "box_office_worldwide": "$139 million",
+      "budget": "$24 million",
+      "dedication": "For Wes (Craven)",
+      "note": "First film in the franchise not directed by Wes Craven (who died in 2015). First not distributed by Dimension Films. Self-described as a 'requel' (reboot/sequel hybrid).",
+      "ghostface_killers": [
+        {
+          "character": "Richie Kirsch",
+          "actor": "Jack Quaid",
+          "motive": "An obsessive, toxic fan of the in-universe 'Stab' horror franchise who was deeply disappointed with the direction of the most recent entry, 'Stab 8.' He met Amber online on a Stab subreddit and together they plotted a new real-life killing spree to inspire a better sequel based on true events. He planned to frame Sam Carpenter as the killer."
+        },
+        {
+          "character": "Amber Freeman",
+          "actor": "Mikey Madison",
+          "motive": "Living in Stu Macher's old house, Amber became obsessed with the original Woodsboro massacre and the Stab franchise. Frustrated with the franchise's decline, she partnered with Richie to create new source material by committing real murders. She attacked Tara to lure Sam back to Woodsboro."
+        }
+      ],
+      "cast": [
+        { "actor": "Melissa Barrera", "character": "Sam Carpenter", "role_type": "lead" },
+        { "actor": "Jenna Ortega", "character": "Tara Carpenter", "role_type": "main" },
+        { "actor": "Jack Quaid", "character": "Richie Kirsch", "role_type": "main" },
+        { "actor": "Neve Campbell", "character": "Sidney Prescott", "role_type": "main" },
+        { "actor": "Courteney Cox", "character": "Gale Weathers", "role_type": "main" },
+        { "actor": "David Arquette", "character": "Dewey Riley", "role_type": "main" },
+        { "actor": "Mikey Madison", "character": "Amber Freeman", "role_type": "main" },
+        { "actor": "Dylan Minnette", "character": "Wes Hicks", "role_type": "supporting" },
+        { "actor": "Mason Gooding", "character": "Chad Meeks-Martin", "role_type": "main" },
+        { "actor": "Jasmin Savoy Brown", "character": "Mindy Meeks-Martin", "role_type": "main" },
+        { "actor": "Sonia Ammar", "character": "Liv McKenzie", "role_type": "supporting" },
+        { "actor": "Kyle Gallner", "character": "Vince Schneider", "role_type": "supporting" },
+        { "actor": "Marley Shelton", "character": "Sheriff Judy Hicks", "role_type": "supporting" },
+        { "actor": "Skeet Ulrich", "character": "Billy Loomis (hallucination)", "role_type": "supporting" },
+        { "actor": "Roger L. Jackson", "character": "Voice of Ghostface", "role_type": "supporting" },
+        { "actor": "Heather Matarazzo", "character": "Martha Meeks", "role_type": "supporting" }
+      ],
+      "summary_short": "Twenty-five years after the original Woodsboro killings, a new Ghostface emerges and targets a group of teenagers connected to the legacy of the original murders, forcing the survivors of the past to return and confront the terror once more.",
+      "summary_medium": "Twenty-five years after the original Ghostface killings, a new masked killer attacks teenager Tara Carpenter in Woodsboro. Unlike the iconic opening of the original, Tara survives, but the attack draws her estranged older sister Sam back to town. Sam carries a dark secret: she is the illegitimate daughter of original Ghostface killer Billy Loomis, and she's been haunted by visions of her dead father.\n\nAs the new Ghostface targets Tara's friend group -- all of whom have connections to the original massacre survivors -- Sam and her boyfriend Richie seek help from Dewey Riley, now divorced and living alone. Dewey contacts Sidney Prescott and Gale Weathers, warning them the nightmare has returned.\n\nMindy Meeks-Martin, niece of the late Randy Meeks, theorizes that the killer is following the rules of a 'requel' -- a combination reboot and sequel that requires new characters connected to legacy characters. The theory proves correct as the killer's targets become clear and the stakes escalate.\n\nThe film serves as both a loving tribute to Wes Craven's legacy and a sharp commentary on toxic fandom, nostalgia culture, and the entitled possessiveness that some fans feel over beloved franchises. It ends with a dedication reading 'For Wes.'",
+      "summary_long_spoilers": "The film opens with Tara Carpenter home alone in Woodsboro, receiving a threatening call from Ghostface. Unlike the classic opening kill, Tara survives the attack but is severely injured and hospitalized. Her estranged older sister Sam Carpenter drives from Modesto with her boyfriend Richie Kirsch to be at Tara's side.\n\nSam harbors a secret: she discovered she is the illegitimate daughter of Billy Loomis, the original Ghostface killer. She left Woodsboro to escape this legacy and is haunted by hallucinations of her dead father. Tara's friends -- Amber Freeman, Wes Hicks, twins Chad and Mindy Meeks-Martin, and Liv McKenzie -- rally around her. That night, Vince Schneider (Stu Macher's nephew and Liv's ex) is stabbed to death by Ghostface outside a bar.\n\nSam and Richie seek help from Dewey Riley, who has become an alcoholic recluse after divorcing Gale. Dewey contacts Sidney and Gale to warn them. Mindy, niece of the late Randy Meeks, identifies the pattern: the killer is creating a 'requel,' targeting people connected to the original survivors.\n\nGhostface murders Sheriff Judy Hicks on her front lawn and then kills her son Wes inside their home. At the hospital, Ghostface attacks Tara and Richie. Dewey, Sam, and Richie fight off the killer and evacuate Tara. Dewey, having initially escaped, turns back to finish off the downed Ghostface and is fatally stabbed. His death marks the first time a legacy trio member has been killed in the franchise.\n\nSidney arrives in Woodsboro after learning of Dewey's death and meets Gale and Sam. Sam initially refuses to help, wanting to flee with Tara and Richie. They end up at a party at Amber's house -- which turns out to be Stu Macher's old house, the location of the original massacre's climax.\n\nDuring a memorial gathering for Wes, Mindy and Chad are attacked separately by Ghostface. Then Amber suddenly pulls out Dewey's stolen gun and shoots Liv in the head, revealing herself as one of the Ghostface killers.\n\nRichie reveals himself as Amber's partner. Together they take Sam, Tara, Sidney, and Gale hostage in the kitchen -- the same kitchen where Sidney confronted Billy and Stu 25 years earlier. Richie and Amber explain they are toxic Stab fans who met on a Reddit forum. Furious that 'Stab 8' (directed by the fictional Rian Johnson stand-in) took the franchise in a new direction, they orchestrated real murders to inspire a 'true' sequel. They plan to frame Sam, using her connection to Billy Loomis as motive.\n\nThe group fights back. Amber sets the house ablaze. Sidney and Gale battle Amber -- Gale shoots her and she falls onto a lit stove, catching fire. Richie chases Sam, who sees a hallucination of Billy pointing to a knife. Sam embraces her heritage, grabs the knife, and stabs Richie repeatedly before slitting his throat. She then shoots him to make sure. A severely burned Amber lunges out one final time but Tara shoots her dead.\n\nSam and Tara reconcile. Gale decides not to write about the killings. Sidney calls her husband and children, confirming she's safe. Mindy and Chad survive their injuries. The film ends with the dedication 'For Wes.'"
+    },
+    {
+      "title": "Scream VI",
+      "year": 2023,
+      "director": ["Matt Bettinelli-Olpin", "Tyler Gillett"],
+      "writer": ["James Vanderbilt", "Guy Busick"],
+      "runtime_minutes": 123,
+      "rating_mpaa": "R",
+      "imdb_id": "tt17663992",
+      "tmdb_id": 934433,
+      "imdb_rating": 6.4,
+      "distributor": "Paramount Pictures",
+      "box_office_worldwide": "$169 million",
+      "budget": "$35 million",
+      "note": "First Scream film without Neve Campbell as Sidney Prescott (due to pay disputes). Set in New York City, a first for the franchise. Longest Scream film at 123 minutes.",
+      "ghostface_killers": [
+        {
+          "character": "Detective Wayne Bailey",
+          "actor": "Dermot Mulroney",
+          "motive": "Father of Richie Kirsch (the killer from Scream 2022). Seeking revenge against Sam Carpenter for killing his son. He orchestrated an online smear campaign to frame Sam as the real Woodsboro killer, and infiltrated the investigation as a detective."
+        },
+        {
+          "character": "Quinn Bailey",
+          "actor": "Liana Liberato",
+          "motive": "Richie's sister, seeking revenge for her brother's death. She faked her own death early in the film to divert suspicion and became Sam and Tara's roommate to spy on them."
+        },
+        {
+          "character": "Ethan Landry",
+          "actor": "Jack Champion",
+          "motive": "Richie's younger brother (using his mother's maiden name). Enrolled at Blackmore University alongside the 'Core Four' to get close to them. Motivated by revenge for his brother's death."
+        }
+      ],
+      "cast": [
+        { "actor": "Melissa Barrera", "character": "Sam Carpenter", "role_type": "lead" },
+        { "actor": "Jenna Ortega", "character": "Tara Carpenter", "role_type": "main" },
+        { "actor": "Courteney Cox", "character": "Gale Weathers", "role_type": "main" },
+        { "actor": "Jasmin Savoy Brown", "character": "Mindy Meeks-Martin", "role_type": "main" },
+        { "actor": "Mason Gooding", "character": "Chad Meeks-Martin", "role_type": "main" },
+        { "actor": "Dermot Mulroney", "character": "Detective Wayne Bailey", "role_type": "main" },
+        { "actor": "Jack Champion", "character": "Ethan Landry", "role_type": "main" },
+        { "actor": "Liana Liberato", "character": "Quinn Bailey", "role_type": "main" },
+        { "actor": "Hayden Panettiere", "character": "Kirby Reed", "role_type": "main" },
+        { "actor": "Josh Segarra", "character": "Danny Brackett", "role_type": "supporting" },
+        { "actor": "Devyn Nekoda", "character": "Anika Kayoko", "role_type": "supporting" },
+        { "actor": "Tony Revolori", "character": "Jason Carvey", "role_type": "supporting" },
+        { "actor": "Samara Weaving", "character": "Laura Crane", "role_type": "supporting" },
+        { "actor": "Henry Czerny", "character": "Dr. Christopher Stone", "role_type": "supporting" },
+        { "actor": "Skeet Ulrich", "character": "Billy Loomis (hallucination)", "role_type": "supporting" },
+        { "actor": "Roger L. Jackson", "character": "Voice of Ghostface", "role_type": "supporting" }
+      ],
+      "summary_short": "The survivors of the latest Woodsboro massacre relocate to New York City for a fresh start, but a new Ghostface follows them, launching a brutal killing spree through Manhattan with a deeply personal vendetta tied to the previous film's events.",
+      "summary_medium": "One year after the Woodsboro killings, Sam and Tara Carpenter have relocated to New York City along with fellow survivors Chad and Mindy Meeks-Martin. Sam is struggling with PTSD and visions of her father Billy Loomis, while online conspiracy theories accuse her of being the real Ghostface killer.\n\nTheir fragile peace is shattered when a new Ghostface emerges in the city. The opening sequence delivers the franchise's first-ever mid-scene unmasking when a killer reveals himself -- only to be murdered by another Ghostface, establishing that this new killer is more ruthless than any before.\n\nAs the body count rises across the city -- from the subway to apartment buildings to a bodega -- the group enlists help from returning Scream 4 survivor Kirby Reed, now an FBI agent, and Sam's neighbor Danny. Gale Weathers is attacked in her penthouse, surviving only because Sam and Tara arrive in time.\n\nThe climax unfolds in an abandoned theater converted into a Ghostface shrine displaying artifacts from every previous massacre. For the first time in franchise history, three killers are revealed -- all members of the same family, united by a desire for revenge. The film explores themes of trauma, family legacy, and the question of whether violence is inherited or chosen.",
+      "summary_long_spoilers": "The film opens with a twist on the franchise formula: film professor Laura Crane is lured into an alley and murdered by Ghostface, who immediately unmasks as Jason Carvey, a Blackmore University student. Jason calls his roommate Greg to celebrate, but upon arriving home finds Greg dead. The real Ghostface calls Jason and murders him, establishing a more brutal and unpredictable killer.\n\nOne year later, Sam Carpenter is seeing a therapist about her visions of Billy Loomis and her fear that she enjoyed killing Richie. Online, conspiracy theories paint Sam as the real Woodsboro killer. Sam, Tara, Mindy, and Chad are living in New York City. Chad and Tara attend Blackmore University alongside Mindy and her girlfriend Anika, Chad's roommate Ethan Landry, and the Bailey siblings -- Quinn (Sam and Tara's roommate) and her father, NYPD Detective Wayne Bailey.\n\nGhostface attacks Sam and Tara at a bodega, killing the store owner. Quinn is seemingly killed in the apartment. On the subway, Mindy is stabbed by a Ghostface lost in a crowd of Halloween partygoers. The group is contacted by Kirby Reed, the survivor from Scream 4 who is now an FBI agent specializing in Ghostface cases.\n\nGhostface calls Gale at her penthouse, taunting her about Dewey's death, then murders her boyfriend and attacks her. Sam and Tara arrive to save Gale, who is hospitalized in critical condition. Detective Bailey discovers a Ghostface shrine in an abandoned theater containing artifacts from all previous massacres -- the original Ghostface robes, Billy's mask, Stu's costume, Amber's mask, and more.\n\nBailey leads the group to the theater, where the trap is sprung. Bailey reveals himself as Ghostface and is joined by a very-much-alive Quinn and by Ethan. They are the family of Richie Kirsch -- Bailey is Richie's father, Quinn and Ethan are his siblings (Ethan using his mother's maiden name, Landry). They orchestrated everything to avenge Richie's death: the online smear campaign against Sam, Quinn faking her death, Ethan infiltrating the friend group at university, and Bailey manipulating the investigation from the inside.\n\nBailey plans to kill Sam and frame her as the mastermind, using the evidence in the shrine. In the climactic battle, Sam and Tara fight the three killers. Sam kills Quinn by stabbing her. Tara stabs Ethan. Sam dons her father Billy's Ghostface mask, calls Bailey on the phone to taunt him, and then brutally stabs him to death. Ethan revives one last time, but Kirby smashes a television on his head (echoing Sidney killing Stu in the original), ending him.\n\nIn the aftermath, Gale, Mindy, and Chad all survive their injuries. Sam looks at Billy's Ghostface mask one final time, then drops it and walks away with Tara and Danny, choosing to leave her father's violent legacy behind. Kirby is taken to the hospital alive."
+    }
+  ],
+  "franchise_summary": {
+    "total_worldwide_gross": "Over $900 million",
+    "all_ghostface_killers": [
+      { "film": "Scream (1996)", "killers": "Billy Loomis (Skeet Ulrich) & Stu Macher (Matthew Lillard)" },
+      { "film": "Scream 2 (1997)", "killers": "Mickey Altieri (Timothy Olyphant) & Nancy Loomis/Debbie Salt (Laurie Metcalf)" },
+      { "film": "Scream 3 (2000)", "killers": "Roman Bridger (Scott Foley) -- sole killer" },
+      { "film": "Scream 4 (2011)", "killers": "Jill Roberts (Emma Roberts) & Charlie Walker (Rory Culkin)" },
+      { "film": "Scream (2022)", "killers": "Richie Kirsch (Jack Quaid) & Amber Freeman (Mikey Madison)" },
+      { "film": "Scream VI (2023)", "killers": "Wayne Bailey (Dermot Mulroney), Quinn Bailey (Liana Liberato) & Ethan Landry (Jack Champion)" }
+    ],
+    "recurring_cast": {
+      "Sidney Prescott (Neve Campbell)": "Scream 1-5 (absent from Scream VI)",
+      "Gale Weathers (Courteney Cox)": "All 6 films",
+      "Dewey Riley (David Arquette)": "Scream 1-5 (killed in Scream 2022)",
+      "Voice of Ghostface (Roger L. Jackson)": "All 6 films"
+    }
+  }
+}
