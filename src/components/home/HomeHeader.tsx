@@ -8,14 +8,14 @@ export function HomeHeader() {
   const handleLoad = useCallback(() => setLoaded(true), []);
 
   return (
-    <header className="relative -mx-[calc((100vw-100%)/2)] w-screen mb-6">
+    <header className="relative -mx-4 mb-6">
       {/* Theme toggle floating over hero */}
       <div className="absolute top-4 right-4 z-10">
         <ThemeToggle />
       </div>
 
-      {/* Full-bleed hero banner */}
-      <div className="relative w-full max-w-4xl mx-auto">
+      {/* Hero banner — 1rem wider than content on each side */}
+      <div className="relative w-full">
         <div className="relative overflow-hidden">
           {/* Shimmer skeleton */}
           {!loaded && (
