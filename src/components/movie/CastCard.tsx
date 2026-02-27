@@ -3,6 +3,7 @@
 import { motion } from 'motion/react';
 import { slideUp } from '@/lib/animations';
 import { Badge } from '@/components/ui/Badge';
+import { ImageWithPreloader } from '@/components/ui/ImageWithPreloader';
 import type { CastMember } from '@/types/movie';
 
 interface CastCardProps {
@@ -17,15 +18,14 @@ export function CastCard({ member, index }: CastCardProps) {
       variants={slideUp}
       custom={index}
     >
-      <div className="w-16 h-16 rounded-full overflow-hidden bg-[var(--bg-tertiary)]">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={member.headshot}
-          alt={member.actorName}
-          className="w-full h-full object-cover"
-          loading="lazy"
-        />
-      </div>
+      <ImageWithPreloader
+        src={member.headshot}
+        alt={member.actorName}
+        wrapperClassName="w-16 h-16"
+        variant="circle"
+        className="w-full h-full object-cover"
+        loading="lazy"
+      />
       <div>
         <p className="text-sm font-medium text-[var(--text-primary)] leading-tight">
           {member.characterName}
