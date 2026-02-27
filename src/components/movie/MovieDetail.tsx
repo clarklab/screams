@@ -67,7 +67,7 @@ export function MovieDetail({
               )}
               {activeTab === 1 && <CastTab cast={cast} />}
               {activeTab === 2 && (
-                <StoryTab spoilerFree={summaries.spoilerFree} />
+                <StoryTab spoilerFree={summaries.spoilerFree} movieSlug={movie.slug} />
               )}
               {activeTab === 3 && (
                 <SpoilerTab

@@ -39,10 +39,16 @@ export interface GhostfaceKiller {
   motive: string;
 }
 
+export interface TimestampedSection {
+  timestamp: string;
+  heading: string;
+  paragraphs: string[];
+}
+
 export interface MovieSummaries {
   quickTake: string;
-  spoilerFree: string;
-  fullPlot: string;
+  spoilerFree: TimestampedSection[];
+  fullPlot: TimestampedSection[];
 }
 
 export interface MovieLegacy {
