@@ -1,5 +1,5 @@
 import { createAnthropic } from '@ai-sdk/anthropic';
-import { streamText } from 'ai';
+import { streamText, convertToModelMessages } from 'ai';
 
 const SYSTEM_PROMPT = `You are Ghostface's Film Scholar — a witty, knowledgeable AI assistant for "SCREAM: The Complete Catch-Up," covering all six Scream movies (1996, 1997, 2000, 2011, 2022, 2023).
 
@@ -24,10 +24,12 @@ export default async (req: Request) => {
     apiKey: process.env.ANTHROPIC_API_KEY,
   });
 
+  const modelMessages = await convertToModelMessages(messages);
+
   const result = streamText({
     model: anthropic('claude-sonnet-4-6'),
     system: SYSTEM_PROMPT,
-    messages,
+    messages: modelMessages,
     maxOutputTokens: 1024,
   });
 
