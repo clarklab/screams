@@ -43,6 +43,10 @@ export const metadata: Metadata = {
       'Explore all six Scream movies before Scream 7 arrives.',
     images: ['/images/og-image.jpg'],
   },
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
+  },
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black-translucent',

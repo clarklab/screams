@@ -1,31 +1,37 @@
 'use client';
 
 import { SpoilerGate } from '@/components/ui/SpoilerGate';
-import type { MovieSlug, GhostfaceKiller } from '@/types/movie';
+import { TimestampHeading } from '@/components/ui/TimestampHeading';
+import type { MovieSlug, GhostfaceKiller, TimestampedSection } from '@/types/movie';
 
 interface SpoilerTabProps {
   movieSlug: MovieSlug;
-  fullPlot: string;
+  fullPlot: TimestampedSection[];
   ghostfaceKillers: GhostfaceKiller[];
 }
 
 export function SpoilerTab({ movieSlug, fullPlot, ghostfaceKillers }: SpoilerTabProps) {
-  const paragraphs = fullPlot.split('\n\n');
-
   return (
     <div className="px-4 py-6">
       <h2 className="text-xs font-semibold uppercase tracking-wider text-[var(--text-secondary)] mb-4">
         The Full Story
       </h2>
       <SpoilerGate movieSlug={movieSlug}>
-        <div className="space-y-4">
-          {paragraphs.map((p, i) => (
-            <p
-              key={i}
-              className="text-base leading-relaxed text-[var(--text-primary)]"
-            >
-              {p}
-            </p>
+        <div className="space-y-6">
+          {fullPlot.map((section, sIdx) => (
+            <div key={sIdx}>
+              <TimestampHeading timestamp={section.timestamp} heading={section.heading} />
+              <div className="space-y-3">
+                {section.paragraphs.map((p, pIdx) => (
+                  <p
+                    key={pIdx}
+                    className="text-base leading-relaxed text-[var(--text-primary)]"
+                  >
+                    {p}
+                  </p>
+                ))}
+              </div>
+            </div>
           ))}
 
           <div className="mt-8 space-y-3">

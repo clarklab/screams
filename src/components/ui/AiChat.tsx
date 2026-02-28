@@ -43,7 +43,7 @@ export function AiChat() {
       <button
         onClick={() => setIsOpen((o) => !o)}
         aria-label={isOpen ? 'Close chat' : 'Ask about Scream movies'}
-        className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full shadow-lg transition-transform active:scale-95"
+        className="chat-button-position fixed right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full shadow-lg transition-transform active:scale-95"
         style={{
           backgroundColor: 'var(--accent)',
           color: '#fff',
@@ -64,9 +64,9 @@ export function AiChat() {
       {/* Chat panel */}
       {isOpen && (
         <div
-          className="fixed inset-x-0 bottom-0 z-40 flex flex-col sm:inset-x-auto sm:right-6 sm:bottom-24 sm:w-96 sm:rounded-2xl"
+          className="chat-panel-position fixed inset-x-0 z-40 flex flex-col sm:inset-x-auto sm:right-6 sm:w-96 sm:rounded-2xl"
           style={{
-            height: 'min(80dvh, 600px)',
+            height: 'min(calc(80dvh - env(safe-area-inset-bottom, 0px)), 600px)',
             backgroundColor: 'var(--bg-secondary)',
             border: '1px solid var(--border)',
             boxShadow: '0 8px 32px var(--shadow)',

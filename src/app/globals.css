@@ -80,6 +80,9 @@ body {
 }
 
 @keyframes shimmer-slide {
+  from {
+    transform: translateX(-100%);
+  }
   to {
     transform: translateX(200%);
   }
@@ -99,6 +102,33 @@ body {
   }
   50% {
     box-shadow: 0 0 35px rgba(230, 54, 54, 0.8);
+  }
+}
+
+/* View Transitions */
+::view-transition-old(*),
+::view-transition-new(*) {
+  animation-duration: 0.35s;
+  animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.25s;
+}
+
+/* Chat positioning — safe area aware for mobile device chrome */
+.chat-button-position {
+  bottom: calc(1.5rem + env(safe-area-inset-bottom, 0px));
+}
+
+.chat-panel-position {
+  bottom: env(safe-area-inset-bottom, 0px);
+}
+
+@media (min-width: 640px) {
+  .chat-panel-position {
+    bottom: calc(6rem + env(safe-area-inset-bottom, 0px));
   }
 }
 

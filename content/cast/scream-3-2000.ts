@@ -122,6 +122,22 @@ export const cast: CastMember[] = [
     headshot: '/images/cast/jamie-kennedy.jpg',
   },
   {
+    actorName: 'Lawrence Hecht',
+    characterName: 'Neil Prescott',
+    role: 'supporting',
+    isGhostface: false,
+    isFranchiseRegular: true,
+    headshot: '/images/cast/placeholder.svg',
+  },
+  {
+    actorName: 'Heather Matarazzo',
+    characterName: 'Martha Meeks',
+    role: 'supporting',
+    isGhostface: false,
+    isFranchiseRegular: true,
+    headshot: '/images/cast/heather-matarazzo.jpg',
+  },
+  {
     actorName: 'Roger L. Jackson',
     characterName: 'Voice of Ghostface',
     role: 'supporting',

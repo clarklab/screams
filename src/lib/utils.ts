@@ -14,3 +14,28 @@ export function slugify(text: string): string {
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/(^-|-$)/g, '');
 }
+
+export type RedactedSegment =
+  | { type: 'text'; content: string }
+  | { type: 'redacted'; content: string };
+
+export function parseRedactedText(text: string): RedactedSegment[] {
+  const segments: RedactedSegment[] = [];
+  const regex = /\{\{REDACTED:(.*?)\}\}/g;
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+
+  while ((match = regex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      segments.push({ type: 'text', content: text.slice(lastIndex, match.index) });
+    }
+    segments.push({ type: 'redacted', content: match[1] });
+    lastIndex = regex.lastIndex;
+  }
+
+  if (lastIndex < text.length) {
+    segments.push({ type: 'text', content: text.slice(lastIndex) });
+  }
+
+  return segments;
+}
