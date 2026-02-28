@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import { ThemeProvider } from '@/components/providers/ThemeProvider';
 import { SoundProvider } from '@/components/providers/SoundProvider';
 import { SafeArea } from '@/components/layout/SafeArea';
+import { AiChat } from '@/components/ui/AiChat';
 import './globals.css';
 
 const inter = Inter({
@@ -87,6 +88,7 @@ export default function RootLayout({
         <ThemeProvider>
           <SoundProvider>
             <SafeArea>{children}</SafeArea>
+            <AiChat />
           </SoundProvider>
         </ThemeProvider>
       </body>

@@ -10,6 +10,9 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@ai-sdk/anthropic": "^3.0.50",
+    "@ai-sdk/react": "^3.0.107",
+    "ai": "^6.0.105",
     "howler": "^2.2.4",
     "motion": "^12.4.7",
     "next": "^15.1.0",
