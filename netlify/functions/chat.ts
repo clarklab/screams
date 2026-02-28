@@ -28,7 +28,14 @@ export default async (req: Request) => {
 
   const { messages } = await req.json();
 
+  // Netlify AI Gateway sets ANTHROPIC_BASE_URL (e.g. /.netlify/ai) and
+  // ANTHROPIC_API_KEY automatically.  The official @anthropic-ai/sdk appends
+  // "/v1/messages" to the base URL, but @ai-sdk/anthropic only appends
+  // "/messages", so we need to add the "/v1" segment ourselves.
   const anthropic = createAnthropic({
+    baseURL: process.env.ANTHROPIC_BASE_URL
+      ? `${process.env.ANTHROPIC_BASE_URL}/v1`
+      : undefined,
     apiKey: process.env.ANTHROPIC_API_KEY,
   });
 
