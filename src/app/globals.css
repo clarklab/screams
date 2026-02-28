@@ -117,6 +117,21 @@ body {
   animation-duration: 0.25s;
 }
 
+/* Chat positioning — safe area aware for mobile device chrome */
+.chat-button-position {
+  bottom: calc(1.5rem + env(safe-area-inset-bottom, 0px));
+}
+
+.chat-panel-position {
+  bottom: env(safe-area-inset-bottom, 0px);
+}
+
+@media (min-width: 640px) {
+  .chat-panel-position {
+    bottom: calc(6rem + env(safe-area-inset-bottom, 0px));
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
