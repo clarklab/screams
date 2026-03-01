@@ -1,15 +1,16 @@
 import type { Metadata, Viewport } from 'next';
-import { Inter } from 'next/font/google';
+import localFont from 'next/font/local';
 import { ThemeProvider } from '@/components/providers/ThemeProvider';
 import { SoundProvider } from '@/components/providers/SoundProvider';
 import { SafeArea } from '@/components/layout/SafeArea';
 import { AiChat } from '@/components/ui/AiChat';
 import './globals.css';
 
-const inter = Inter({
-  subsets: ['latin'],
+const inter = localFont({
+  src: '../../public/fonts/inter-latin-variable.woff2',
   variable: '--font-stack-sans-text',
   display: 'swap',
+  weight: '100 900',
 });
 
 export const metadata: Metadata = {

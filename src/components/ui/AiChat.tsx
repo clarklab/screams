@@ -103,11 +103,11 @@ export function AiChat() {
 
   return (
     <>
-      {/* Floating chat button — Ghostface mask style */}
+      {/* Floating chat button — hidden on mobile when chat is open */}
       <motion.button
         onClick={handleOpen}
         aria-label={isOpen ? 'Hang up' : 'Answer the call from Ghostface'}
-        className="chat-button-position fixed right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full shadow-lg"
+        className={`chat-button-position fixed right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full shadow-lg ${isOpen ? 'hidden sm:flex' : 'flex'}`}
         style={{
           backgroundColor: isOpen ? '#dc2626' : '#111',
           color: '#fff',
@@ -159,9 +159,8 @@ export function AiChat() {
       <AnimatePresence>
         {isOpen && (
           <motion.div
-            className="chat-panel-position fixed inset-x-0 z-40 flex flex-col sm:inset-x-auto sm:right-6 sm:w-96 sm:rounded-2xl"
+            className="chat-panel-position fixed inset-x-0 top-0 z-40 flex flex-col sm:inset-x-auto sm:top-auto sm:right-6 sm:w-96 sm:rounded-2xl"
             style={{
-              height: 'min(calc(80dvh - env(safe-area-inset-bottom, 0px)), 600px)',
               backgroundColor: '#0a0a0a',
               border: '1px solid #222',
               boxShadow: '0 8px 40px rgba(0, 0, 0, 0.8), 0 0 60px rgba(220, 38, 38, 0.1)',
@@ -189,11 +188,23 @@ export function AiChat() {
                 </div>
               </div>
               <div
-                className="flex h-6 items-center rounded-full px-2 text-[10px] font-semibold uppercase tracking-widest"
+                className="flex h-6 items-center rounded-full px-2 text-[10px] font-semibold uppercase tracking-widest sm:flex"
                 style={{ backgroundColor: 'rgba(220, 38, 38, 0.15)', color: '#dc2626' }}
               >
                 Live
               </div>
+              {/* Close button — visible on mobile where the FAB is hidden */}
+              <button
+                onClick={handleOpen}
+                aria-label="Close chat"
+                className="flex h-8 w-8 items-center justify-center rounded-full sm:hidden"
+                style={{ backgroundColor: '#2a2a2a', color: '#999' }}
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <line x1="18" y1="6" x2="6" y2="18" />
+                  <line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
+              </button>
             </div>
 
             {/* Messages */}
