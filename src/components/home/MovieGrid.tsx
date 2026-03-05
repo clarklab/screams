@@ -13,7 +13,7 @@ export function MovieGrid({ movies }: MovieGridProps) {
   return (
     <div className="px-4">
       <h2 className="font-[family-name:var(--font-headline)] text-xl font-bold tracking-[-0.03em] text-[var(--text-primary)] text-center mb-5">
-        Catch up on all <span className="text-[var(--accent)]">SIX SCREAMS</span>
+        Catch up on all <span className="text-[var(--accent)]">SEVEN SCREAMS</span>
       </h2>
       <motion.div
         className="grid grid-cols-2 gap-4"

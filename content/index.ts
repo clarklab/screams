@@ -8,6 +8,7 @@ import { cast as castScream3 } from './cast/scream-3-2000';
 import { cast as castScream4 } from './cast/scream-4-2011';
 import { cast as castScream5 } from './cast/scream-5-2022';
 import { cast as castScreamVI } from './cast/scream-vi-2023';
+import { cast as castScream7 } from './cast/scream-7-2026';
 
 import { summaries as sumScream1996 } from './summaries/scream-1996';
 import { summaries as sumScream2 } from './summaries/scream-2-1997';
@@ -15,6 +16,7 @@ import { summaries as sumScream3 } from './summaries/scream-3-2000';
 import { summaries as sumScream4 } from './summaries/scream-4-2011';
 import { summaries as sumScream5 } from './summaries/scream-5-2022';
 import { summaries as sumScreamVI } from './summaries/scream-vi-2023';
+import { summaries as sumScream7 } from './summaries/scream-7-2026';
 
 import { legacy as legScream1996 } from './legacy/scream-1996';
 import { legacy as legScream2 } from './legacy/scream-2-1997';
@@ -22,6 +24,7 @@ import { legacy as legScream3 } from './legacy/scream-3-2000';
 import { legacy as legScream4 } from './legacy/scream-4-2011';
 import { legacy as legScream5 } from './legacy/scream-5-2022';
 import { legacy as legScreamVI } from './legacy/scream-vi-2023';
+import { legacy as legScream7 } from './legacy/scream-7-2026';
 
 export { movies };
 export { ghostfaceKillers };
@@ -33,6 +36,7 @@ export const MOVIE_SLUGS: MovieSlug[] = [
   'scream-4-2011',
   'scream-5-2022',
   'scream-vi-2023',
+  'scream-7-2026',
 ];
 
 const castMap: Record<MovieSlug, CastMember[]> = {
@@ -42,6 +46,7 @@ const castMap: Record<MovieSlug, CastMember[]> = {
   'scream-4-2011': castScream4,
   'scream-5-2022': castScream5,
   'scream-vi-2023': castScreamVI,
+  'scream-7-2026': castScream7,
 };
 
 const summariesMap: Record<MovieSlug, MovieSummaries> = {
@@ -51,6 +56,7 @@ const summariesMap: Record<MovieSlug, MovieSummaries> = {
   'scream-4-2011': sumScream4,
   'scream-5-2022': sumScream5,
   'scream-vi-2023': sumScreamVI,
+  'scream-7-2026': sumScream7,
 };
 
 const legacyMap: Record<MovieSlug, MovieLegacy> = {
@@ -60,6 +66,7 @@ const legacyMap: Record<MovieSlug, MovieLegacy> = {
   'scream-4-2011': legScream4,
   'scream-5-2022': legScream5,
   'scream-vi-2023': legScreamVI,
+  'scream-7-2026': legScream7,
 };
 
 export function getAllMovies(): Movie[] {
