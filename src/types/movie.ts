@@ -4,7 +4,8 @@ export type MovieSlug =
   | 'scream-3-2000'
   | 'scream-4-2011'
   | 'scream-5-2022'
-  | 'scream-vi-2023';
+  | 'scream-vi-2023'
+  | 'scream-7-2026';
 
 export interface Movie {
   id: MovieSlug;

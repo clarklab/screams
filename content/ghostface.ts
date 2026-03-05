@@ -73,4 +73,21 @@ export const ghostfaceKillers: Record<MovieSlug, GhostfaceKiller[]> = {
       motive: "Richie's younger brother (using his mother's maiden name). Enrolled at Blackmore University alongside the 'Core Four' to get close to them. Motivated by revenge for his brother's death.",
     },
   ],
+  'scream-7-2026': [
+    {
+      character: 'Karl Allan Gibbs',
+      actor: 'Unknown',
+      motive: 'A dangerous psychiatric patient and obsessive Stab franchise fanatic. His room at the institution was filled with Stab memorabilia and drawings. Used as a disposable pawn by the mastermind -- he was the first Ghostface to attack but was killed early when Gale ran him over with her car.',
+    },
+    {
+      character: 'Marco',
+      actor: 'Ethan Embry',
+      motive: 'A psychiatric hospital orderly and former Google security specialist with AI expertise. He created the deepfake Stu Macher using his tech skills to terrorize Sidney. Recruited by Jessica Bowden to execute her plan, though his personal motivation is the least defined of the trio.',
+    },
+    {
+      character: 'Jessica Bowden',
+      actor: 'Anna Camp',
+      motive: "The mastermind. After enduring an abusive marriage, Jessica found solace in Sidney's memoir about surviving Ghostface and was inspired to murder her own husband. She became obsessed with Sidney as a symbol of survival. When Sidney didn't appear during the Scream VI killings in New York, Jessica felt abandoned by her idol. She checked herself into a psychiatric facility, recruited Marco and Karl, and orchestrated the entire massacre to restore Sidney to her 'final girl' legacy -- even murdering her own son Lucas in the process.",
+    },
+  ],
 };
