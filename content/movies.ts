@@ -113,7 +113,7 @@ export const movies: Movie[] = [
     rating: 'R',
     imdbScore: 5.9,
     imdbId: 'tt27047903',
-    tmdbId: 1100857,
+    tmdbId: 1159559,
     tagline: 'It always comes back.',
     posterPath: '/images/posters/scream-7-2026.jpg',
     backdropPath: '/images/posters/scream-7-2026-backdrop.jpg',
